@@ -13,4 +13,14 @@ public class Adapters {
     private Set<Laptops> compatibleLaptops;
     private Integer cost;
 
+    public Adapters(String name, String supply, Double power, Double voltage, Double amperage, String connector, Long id) {
+        this.name = name;
+        this.supply = supply;
+        this.power = power;
+        this.voltage = voltage;
+        this.amperage = amperage;
+        this.connector = connector;
+        this.id = id;
+    }
 }
+
